@@ -9,7 +9,7 @@
  */
 JNIEXPORT jint JNICALL Java_com_iqbal_ndkhello2_ndk_NativeLib_getAdd(
 		JNIEnv *env, jclass clz, jint a, jint b) {
-	int c=add(a,b);
+	int c=add(a,b); //this function declared in main.h and defiened in main.c
 	return c;
 }
 
