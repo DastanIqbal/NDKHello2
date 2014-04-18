@@ -63,5 +63,5 @@ android-8 is my minsdkversion so be sure about this change according to minsdkve
 #Open terminal head to project root and fire this command 
 ndk-build
 
-#Now run your Android NDKHello Project.
+#Now run your Android NDKHello2 Project.
 	
