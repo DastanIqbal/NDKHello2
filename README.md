@@ -27,10 +27,10 @@ and don't foreget to include NativeLib.h
 	this is the declared method in header files and change to method defination
 	
 	#include"NativeLib.h"
-JNIEXPORT jstring JNICALL Java_com_iqbal_ndkhello_ndk_NativeLib_getHello
-  (JNIEnv *env, jclass clz){
+	JNIEXPORT jstring JNICALL Java_com_iqbal_ndkhello_ndk_NativeLib_getHello
+	(JNIEnv *env, jclass clz){
 	return (*env)->NewStringUTF(env,"Hello World2");
-}
+	}
 
 Note:NewStringUTF sometimes this function shows error means red line to suppress this error please update your CDT.
 
