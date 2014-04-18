@@ -44,7 +44,7 @@ Note:NewStringUTF sometimes this function shows error means red line to suppress
 	return c;
 	}
 	
-7.Now create Android.mk file and write these lines to build
+7. Now create Android.mk file and write these lines to build
 LOCAL_PATH:=$(call my-dir)
 
 include $(CLEAR_VARS)
@@ -53,13 +53,13 @@ LOCAL_SRC_FILES:=NativeLib.c src/main.c
 
 include $(BUILD_SHARED_LIBRARY)
 
-8.Create Application.mk to suppress the Warnning or error android-19 is larger than minsdkversion 8....
+8. Create Application.mk to suppress the Warnning or error android-19 is larger than minsdkversion 8....
 and write this lines
 APP_PLATFORM:=android-8
 android-8 is my minsdkversion so be sure about this change according to minsdkversion in AndroidManifest.xml
 
 
-9.Open terminal head to project root and fire this command 
+9. Open terminal head to project root and fire this command 
 ndk-build
 
 10. Now run your Android NDKHello Project.
